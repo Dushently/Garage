@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+body{
+    /*background-image: url("pexels-photo-315938.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    background-color:  #ffffff;
+}
+
+
+
+header{
+    text-align: center;
+    height: 7vh;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #fff;
+    background-color: #111111;
+
+
+}
+.h1menu {
+    letter-spacing: 4px;
+    margin-left:40px ;
+    font-size: 3em;
+
+
+}.h2menu {
+     letter-spacing: 4px;
+     margin-left:40px ;
+
+ }
+.klant{
+    margin: 5%;
+    font-size: 1em;
+    color: #111111;
+
+}
+.auto{
+    margin: 5%;
+    font-size: 1em;
+    color: #111111;
+
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+
+}
+
+.flex-item , a {
+    background: 	#ffffff;
+    width: 250px;
+    height: 150px;
+    line-height: 150px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16pt;
+    border-radius: 10px;
+    list-style-type: none;
+}
+.flex-item {
+    border: 2px solid #111111;
+
+}
+.formbtn{
+    background-color: #ffffff;
+    color: #111111;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 4%;
+
+}
+#form{
+   text-align: center;
+    background: white;
+    width: 500px;
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+    border-radius: 10px;
+    list-style-type: none;
+    margin-left: 32.5%;
+    margin-top: 5%;
+    padding: 5%;
+    border: 2px solid #111111;
+
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+table {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+th {
+    height: 50px;
+}
+td {
+    height: 50px;
+}
+#terug{
+    margin-left: 45%;
+}
